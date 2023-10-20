@@ -1,5 +1,5 @@
 BDEPEND=app-text/scdoc >=dev-lang/go-1.18 app-arch/unzip
-DEFINED_PHASES=unpack
+DEFINED_PHASES=compile install unpack
 DESCRIPTION=takes a list of backup names and returns a list of backups for deletion
 EAPI=8
 HOMEPAGE=https://git.sr.ht/~apreiml/prunef
@@ -9,5 +9,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://git.sr.ht/~apreiml/prunef/archive/v0.2.0.tar.gz -> prunef-0.2.0.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
-_md5_=47f8a27262b64e69e0e850a4cb8c3992
+_eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	go-module	8624eede24936fd7666e5298e5332f22
+_md5_=0d0b1fb67eb854348a9b565c4b7bb104

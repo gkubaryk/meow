@@ -18,7 +18,7 @@ else
 	MY_PV=${PV/_p/r}
 	MY_P=${P/_p/r}
 	S=${WORKDIR}/${PN}-${MY_PV}
-	SRC_URI="https://github.com/Slackadays/Clipboard/archive/refs/tags/${MY_PV}.tar.gz -> ${MY_P}.tar.gz" 
+	SRC_URI="https://github.com/Slackadays/Clipboard/archive/refs/tags/${MY_PV}.tar.gz -> ${MY_P}.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
@@ -31,7 +31,6 @@ src_configure() {
 	)
 	cmake_src_configure
 }
-
 
 src_prepare() {
 	sed -i -e 's/LIBRARY DESTINATION lib/LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}/' src/cbx11/CMakeLists.txt || die

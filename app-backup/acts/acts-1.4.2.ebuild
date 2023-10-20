@@ -14,7 +14,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="app-backup/tarsnap"
-DEPEND=""
 
 src_compile() {
 	true;
