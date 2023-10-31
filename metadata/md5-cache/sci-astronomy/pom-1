@@ -1,0 +1,7 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=calculate the phase of moon
+EAPI=8
+KEYWORDS=~amd64
+LICENSE=BSD
+SLOT=0
+_md5_=a9fcfd94eb34b6675d53769496d3827d
