@@ -151,4 +151,4 @@ RESTRICT="mirror"
 
 LICENSE="Apache-2.0 BSD-2 MIT Unlicense"
 SLOT="0"
-KEYWORDS="amd64 ~arm64 ~x86"
+KEYWORDS="~amd64 ~arm64 ~x86"
