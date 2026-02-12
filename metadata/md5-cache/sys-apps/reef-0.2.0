@@ -1,0 +1,13 @@
+BDEPEND=|| ( >=dev-lang/rust-bin-1.85.0:* >=dev-lang/rust-1.85.0:* )
+DEFINED_PHASES=compile configure install setup test unpack
+DESCRIPTION=Bash compatibility layer for fish shell
+EAPI=8
+HOMEPAGE=https://github.com/ZStud/reef
+INHERIT=cargo
+IUSE=debug
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/ZStud/reef/archive/refs/tags/v0.2.0.tar.gz -> reef-0.2.0.tar.gz
+_eclasses_=toolchain-funcs	7e440a20ac11dece04e3334622e6e5da	flag-o-matic	ed1eda86c8f746a2a75f7f9f7478f5f4	multiprocessing	1e32df7deee68372153dca65f4a7c21f	rust	20da14430886f3de143eb101684fcf62	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	aeba1d272f6c2e000912e11d8cf626eb
+_md5_=4a3550aa22dd74a06fe20671e60b8f93
