@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=sys-libs/ncurses:0= sys-libs/readline:=
 SLOT=0
 SRC_URI=https://github.com/mellowcandle/bitwise/releases/download/v0.43/bitwise-v0.43.tar.gz
-_eclasses_=flag-o-matic	f14aba975c94ccaa9f357a27e3b17ffe	multilib	b2a329026f2e404e9e371097dda47f96	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87
+_eclasses_=toolchain-funcs	7e440a20ac11dece04e3334622e6e5da	flag-o-matic	ed1eda86c8f746a2a75f7f9f7478f5f4
 _md5_=04ef6e6fd4ef3068e8f76578d863587d
