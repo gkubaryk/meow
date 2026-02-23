@@ -5,6 +5,8 @@
 
 EAPI=8
 
+RUST_MIN_VER="1.87.0"
+
 CRATES="
 	android_system_properties@0.1.5
 	anstream@0.6.21
@@ -17,7 +19,7 @@ CRATES="
 	atomic-waker@1.1.2
 	autocfg@1.5.0
 	aws-lc-rs@1.15.4
-	aws-lc-sys@0.37.0
+	aws-lc-sys@0.37.1
 	base64@0.22.1
 	bitflags@2.10.0
 	bumpalo@3.19.1
@@ -151,8 +153,8 @@ CRATES="
 	same-file@1.0.6
 	schannel@0.1.28
 	scopeguard@1.2.0
-	security-framework-sys@2.15.0
-	security-framework@3.5.1
+	security-framework-sys@2.17.0
+	security-framework@3.6.0
 	semver@1.0.27
 	serde@1.0.228
 	serde_core@1.0.228
