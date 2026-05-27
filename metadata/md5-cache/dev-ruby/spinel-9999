@@ -1,5 +1,5 @@
 BDEPEND=dev-ruby/prism >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=unpack
+DEFINED_PHASES=compile install unpack
 DESCRIPTION=Spinel compiles Ruby source code into standalone native executables
 EAPI=8
 HOMEPAGE=https://github.com/matz/spinel
@@ -7,5 +7,5 @@ INHERIT=git-r3
 LICENSE=MIT
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	7b584b5dc33e3bc66ff5b9271bf41764
-_md5_=45d412c1f0f5016fd19a9e7ae9fe9c5d
+_eclasses_=git-r3	2f8cdb10b033f92c3136aa6488a31c98
+_md5_=b76a39fd5112e142178aa6c449380eb4
