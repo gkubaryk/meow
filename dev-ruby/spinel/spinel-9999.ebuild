@@ -36,7 +36,7 @@ src_compile() {
 
 # this seems gross but the official makefile is grosser at the time of this writing
 src_install() {
-	dobin spinel{,_codegen,_parse}
+	dobin bin/spinel{,-doctor,-flatten,-reduce}
 	dolib.a lib/libspinel_rt.a
 	doheader lib/sp_{bigint,runtime}.h
 }
