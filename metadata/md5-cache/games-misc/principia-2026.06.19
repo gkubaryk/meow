@@ -1,0 +1,14 @@
+BDEPEND=app-alternatives/ninja >=dev-build/cmake-3.28.5
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=media-libs/freetype:2 media-libs/libjpeg-turbo media-libs/libpng media-libs/libsdl3 x11-libs/gtk+:3
+DESCRIPTION=open sourced physics-based sandbox game
+EAPI=8
+HOMEPAGE=https://principia-web.se/
+INHERIT=cmake
+KEYWORDS=~amd64
+LICENSE=BSD-2
+RDEPEND=media-libs/freetype:2 media-libs/libjpeg-turbo media-libs/libpng media-libs/libsdl3 x11-libs/gtk+:3
+SLOT=0
+SRC_URI=https://github.com/Bithack/principia/archive/refs/tags/2026.06.19.tar.gz -> principia-2026.06.19.tar.gz
+_eclasses_=toolchain-funcs	58a918e3a42d0156f010dcfd43725be5	flag-o-matic	fd3558f73f6503093adee69adf41020d	multiprocessing	45d0620f25c2f063ad6276ecd9ed9399	ninja-utils	d063ea1900a793f93eb095010d6d9156	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	c54f532543a549f7318d6c49aaf8e953
+_md5_=d48ae67a3fd3b2c13d953c5eb3a23a41
