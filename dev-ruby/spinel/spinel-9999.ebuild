@@ -22,7 +22,7 @@ fi
 LICENSE="MIT"
 SLOT="0"
 
-DEPEND=""
+DEPEND="virtual/libcrypt"
 RDEPEND="${DEPEND}"
 BDEPEND="dev-ruby/prism"
 

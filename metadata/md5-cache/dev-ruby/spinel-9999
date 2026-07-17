@@ -1,11 +1,13 @@
 BDEPEND=dev-ruby/prism >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install unpack
+DEPEND=virtual/libcrypt
 DESCRIPTION=Spinel compiles Ruby source code into standalone native executables
 EAPI=8
 HOMEPAGE=https://github.com/matz/spinel
 INHERIT=git-r3
 LICENSE=MIT
 PROPERTIES=live
+RDEPEND=virtual/libcrypt
 SLOT=0
 _eclasses_=git-r3	2f8cdb10b033f92c3136aa6488a31c98
-_md5_=c53c556474c5638352ec33d1cecc5175
+_md5_=db0e429a7983b33001c4735311bfc1c0
